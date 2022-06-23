@@ -29,6 +29,7 @@ export default function Shortener() {
         console.log(data.result)
         setLinks(data.result)
         setText("")
+        setButtonText("Copy")
       }
 
       shortenLink()
